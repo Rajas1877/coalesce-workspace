@@ -1,0 +1,138 @@
+fileVersion: 1
+id: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+name: STG_CUSTOMERS
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: RAJA
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c965ff78-1d68-4444-aa0d-a6f728cc08dc
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CUSTOMERID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 78996529-b059-49a5-b8d3-df7c4f9a9573
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fac996e7-246f-4163-8abb-d132505b30f7
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: FIRSTNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5773d6be-3f51-4ad0-bfd5-1063bef47936
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 072efbdc-3abe-4f01-bfa9-63e6f7b87e1f
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: LASTNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7666669b-47cf-4902-8ec6-29164413cdf2
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27abcdd8-4066-4532-a43e-52cb63779331
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: EMAIL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5156276b-64d7-46bf-b558-aa71c66a15f2
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08ae15b9-329a-497b-90c9-8d1c3b839d13
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(20)
+        description: ""
+        name: PHONE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ec8308ac-0e57-4200-adfc-aa89a4cf8005
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cb3f2290-356f-4e0a-9739-6c7fa1868d74
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d45576d6-89c2-465e-9c32-81ae45ad1ee9
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 445fea0c-6f12-4fd8-820d-f4fc67649fb4
+          stepCounter: 03a7e7cc-4489-495b-a16b-5ac706f4c272
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cb58758f-cdb4-4806-9564-27a7724cb3fc
+                stepCounter: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          CUSTOMERS: 6f302ef1-6811-45f8-bcc3-6b4b6db8c548
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: RAJA
+            nodeName: CUSTOMERS
+        join:
+          joinCondition: FROM {{ ref('RAJA', 'CUSTOMERS') }} "CUSTOMERS"
+        name: STG_CUSTOMERS
+        noLinkRefs: []
+  name: STG_CUSTOMERS
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "2"
-mappingDefinitions: {}
+mappingDefinitions:
+  RAJA:
+    database: RAJA
+    schema: PUBLIC
 name: API
 type: Environment
