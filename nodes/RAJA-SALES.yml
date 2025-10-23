@@ -1,0 +1,208 @@
+fileVersion: 1
+id: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+name: SALES
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: RAJA
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce2bdef1-faa9-4c67-a65a-ffa86c51d4c9
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CUSTOMER_ID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a68cdaba-cb2e-45ab-9c2e-73ed48d7d2ae
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63dd1d0e-4a12-43f6-87b1-61cb575baa0e
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b30dc914-cc55-4970-876d-de467cd99a20
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c9f5aada-ed97-4c32-b52f-35754c1c9bda
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 360c1926-36e0-43f4-8ba3-712a3afe853e
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 032041f0-ba4b-4d3d-b642-3cdffab6c3d1
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(255)
+        description: ""
+        name: EMAIL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 279f9085-2a75-44cd-96e2-3bcb9bcbe835
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b0f8d80-17ca-4247-a164-2896df147909
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(20)
+        description: ""
+        name: PHONE_NUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 53e2c4a5-470b-47e8-bdc9-e54a8bcb8d2c
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8795e06d-39ff-46a7-b100-a3ff0cb2f39d
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(255)
+        description: ""
+        name: ADDRESS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7ca78169-816f-4c0a-8dcd-00f1602d0e24
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12d4222c-118f-4267-a889-8b5e008890e7
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 18407bfc-abd7-49ac-b82d-ecb4bf840738
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bfcc45d8-18bb-45fe-840f-838a3fbf7eeb
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: STATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 60abf483-a057-474a-a5a2-229043999cb0
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa0fde35-76e3-4b9e-83f6-8f2a33a79b70
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(20)
+        description: ""
+        name: POSTAL_CODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2cd2cec1-b585-47ec-8925-1406bedb6f45
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67c6c299-ba87-4b76-8c18-d4cece6695ee
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ac94eba9-5e0f-427c-a1d0-3869226b2073
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7283392-8125-4449-a5ec-4fc7c916a834
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: CREATED_AT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6a790ab0-2964-4b26-b170-9af084b0ebfb
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b43fd03-72ac-4fa0-817a-d050968aaf26
+          stepCounter: 9741a7ea-62dd-4fbe-b8c2-fea87c365adc
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: UPDATED_AT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7bf6e20e-e7b7-4011-ab47-539a1bda06cc
+                stepCounter: 568b673b-e000-4238-a8c5-c9a14e84af16
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_CUSTOMERS: 568b673b-e000-4238-a8c5-c9a14e84af16
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: RAJA
+            nodeName: STG_CUSTOMERS
+        join:
+          joinCondition: FROM {{ ref('RAJA', 'STG_CUSTOMERS') }} "STG_CUSTOMERS"
+        name: SALES
+        noLinkRefs: []
+  name: SALES
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

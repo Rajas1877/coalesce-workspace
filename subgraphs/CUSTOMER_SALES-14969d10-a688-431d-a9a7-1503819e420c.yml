@@ -1,6 +1,5 @@
 fileVersion: 1
 id: 14969d10-a688-431d-a9a7-1503819e420c
 name: CUSTOMER_SALES
-steps:
-  - 71334ebc-d2c9-4ff8-ad04-1c6bd22aebbf
+steps: []
 type: Subgraph
