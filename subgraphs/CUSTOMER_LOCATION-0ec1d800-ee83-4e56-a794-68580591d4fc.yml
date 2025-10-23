@@ -1,0 +1,7 @@
+fileVersion: 1
+id: 0ec1d800-ee83-4e56-a794-68580591d4fc
+name: CUSTOMER_LOCATION
+steps:
+  - cd2ef1ea-bed7-452c-8aed-e9ccb18791e6
+  - dde994c8-607e-4aa5-81b0-8decf2bdf148
+type: Subgraph

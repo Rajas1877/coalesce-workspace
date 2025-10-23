@@ -1,6 +1,6 @@
 excludeSelector: ""
 fileVersion: 1
 id: "2"
-includeSelector: "{ location: RAJA name: CUSTOMERS } OR { location: RAJA name: STG_CUSTOMERS }"
+includeSelector: "{ subgraph: \"CUSTOMERS\" }"
 name: JobAPI
 type: Job

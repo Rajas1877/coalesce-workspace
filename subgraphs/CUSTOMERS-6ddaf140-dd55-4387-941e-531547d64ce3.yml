@@ -1,0 +1,7 @@
+fileVersion: 1
+id: 6ddaf140-dd55-4387-941e-531547d64ce3
+name: CUSTOMERS
+steps:
+  - 568b673b-e000-4238-a8c5-c9a14e84af16
+  - f27fa74b-30cf-4827-a621-a666385f67f0
+type: Subgraph
