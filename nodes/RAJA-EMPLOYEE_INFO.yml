@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 0411e082-fcc0-4587-8edb-05a176258d36
-name: STG_EMPLOYEE
+id: 8962f2e9-86e5-448d-960c-c15494d9aa54
+name: EMPLOYEE_INFO
 operation:
   config:
     insertStrategy: INSERT
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c167a3c9-cde7-4b7b-a690-5e186557c75b
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: 80e5e005-780b-4589-9032-c04dddd36b90
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -28,13 +28,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 6df9c0ac-bcf2-4d42-8913-3197194d7a9d
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: ebc3c0e7-97ba-40e9-9b76-45e2e30bc18d
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: e0204cfe-a6ec-4041-9d11-9b6c64ae1852
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: 35612739-7e8a-4201-a427-f747f20c11cc
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -42,13 +42,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 46efef10-75f9-45a8-a03e-3f119073cc54
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: f28c7d73-3b83-4ef4-9d65-a39edf777975
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 3d0694df-6ae5-4cb5-989c-3ea6ed23abd2
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: f5079caa-23f7-4aef-a656-ce3d358a63f1
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -56,13 +56,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 0db2ef8f-8430-41a5-8fd8-58a8f334c16a
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: fbbd25c7-83a6-4e37-93cd-8113d4d10c07
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 0eadb9c2-caba-4b5a-9b6f-ddaad4e6e1d1
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: 2ca3ecb6-4958-4c41-84e3-678b86eb9ae9
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -70,13 +70,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 26b998d9-8780-4a87-a0c0-d0aa3ebc44db
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: 763ab201-c791-4d63-be98-449e7c3abcfa
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 55885e36-6d22-432c-a22a-0f46e76064f6
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: 04dd2a3e-66e3-4f08-a30b-2f6954e38bbf
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: NUMBER(10,2)
         description: ""
@@ -84,13 +84,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 11a24b63-acea-4fda-82b4-c1442ef55889
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: 35ce62ad-f95d-4392-b2f5-594fa9029ee9
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c0378357-c5c1-4df5-b5d0-759f6976aebe
-          stepCounter: 0411e082-fcc0-4587-8edb-05a176258d36
+          columnCounter: d362af06-83bb-4c6f-9fae-c13bed859e53
+          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
         config: {}
         dataType: DATE
         description: ""
@@ -98,14 +98,14 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 91da3b1f-ca74-4751-82c0-06cc3d7b17a7
-                stepCounter: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+              - columnCounter: 2a02389c-8777-4367-b41c-7d0032179a76
+                stepCounter: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
             transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases:
-          EMPLOYEE: d223e08a-fcb7-4063-bcf9-b6bdb1691768
+          EMPLOYEE: 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
         customSQL:
           customSQL: ""
         dependencies:
@@ -113,9 +113,9 @@ operation:
             nodeName: EMPLOYEE
         join:
           joinCondition: FROM {{ ref('RAJA', 'EMPLOYEE') }} "EMPLOYEE"
-        name: STG_EMPLOYEE
+        name: EMPLOYEE_INFO
         noLinkRefs: []
-  name: STG_EMPLOYEE
+  name: EMPLOYEE_INFO
   overrideSQL: false
   schema: ""
   sqlType: Stage

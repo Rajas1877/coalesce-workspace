@@ -1,0 +1,7 @@
+fileVersion: 1
+id: de3beefb-9cbd-4738-b776-1d43039cc00a
+name: EMPLOYEE_INFO
+steps:
+  - 8962f2e9-86e5-448d-960c-c15494d9aa54
+  - 98dbc494-7c74-49ca-9e90-2dee6d5b0e44
+type: Subgraph
