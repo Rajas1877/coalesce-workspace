@@ -1,0 +1,7 @@
+fileVersion: 1
+id: 4a6ca018-d966-42c3-833f-3e0a64106e5c
+name: CUSTOMER_SALES
+steps:
+  - 53cb0751-c9a2-44d3-bef9-fe7c79c41479
+  - f27fa74b-30cf-4827-a621-a666385f67f0
+type: Subgraph
