@@ -1,0 +1,138 @@
+fileVersion: 1
+id: f2900042-3f57-4057-b1fb-ab3a021b4a26
+name: PERSONNEL
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: RAJA
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 217b2535-7172-43f8-9fec-cb0c8e3d66f3
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ORDER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 52ea976f-7060-44ab-842f-409199a5f309
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 33a4689f-286e-4f6b-98ad-829fbce9766e
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CUSTOMER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 78faffd3-02fa-4cbe-8319-df3a93ea9d08
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f719f5eb-7a69-496e-8404-1e20a57e0cd1
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRODUCT_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a1a223c6-e3c1-45da-8cbe-615fc8682f01
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e11e6874-4930-4b72-bb4a-991058677a06
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: QUANTITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6ffe520f-111d-4f1a-be20-40a39766a942
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a0ccf67-365a-4609-90bd-4bb13b0f7a2a
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: NUMBER(10,2)
+        description: ""
+        name: PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9c28d276-f93a-4637-bbcd-0e38ef6dc151
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5255b852-e8b2-4e80-82a8-709d01107218
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: DATE
+        description: ""
+        name: ORDER_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 299df9c0-e3ec-4c68-86c7-2e2ccbbbc28b
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 26bf1bc0-b3e3-411b-8a18-da736deb9050
+          stepCounter: f2900042-3f57-4057-b1fb-ab3a021b4a26
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fd700201-e9fa-4a64-a81c-947626027549
+                stepCounter: dc390bd2-1ac9-4000-8063-59d55bb4d193
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_ORDERS: dc390bd2-1ac9-4000-8063-59d55bb4d193
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: RAJA
+            nodeName: STG_ORDERS
+        join:
+          joinCondition: FROM {{ ref('RAJA', 'STG_ORDERS') }} "STG_ORDERS"
+        name: PERSONNEL
+        noLinkRefs: []
+  name: PERSONNEL
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
