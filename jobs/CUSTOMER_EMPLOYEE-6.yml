@@ -1,6 +1,6 @@
 excludeSelector: ""
 fileVersion: 1
 id: "6"
-includeSelector: "{ subgraph: \"CUSTOMERS\" } OR { subgraph: \"EMPLOYEE_INFO\" } OR { subgraph: \"ORDERS\" } OR { subgraph: \"PERSONNEL_DEPENDENCY_ORDERS\" }"
+includeSelector: "{ subgraph: \"CUSTOMERS\" } OR { subgraph: \"EMPLOYEE_INFO\" } OR { subgraph: \"ORDERS\" } OR { subgraph: \"PERSONNEL_DEPENDENCY_ORDERS\" } OR { subgraph: \"ORIGAMI\" } OR { subgraph: \"PERSONNEL_COMMISSION\" }"
 name: CUSTOMER_EMPLOYEE
 type: Job

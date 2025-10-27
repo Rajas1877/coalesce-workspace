@@ -1,0 +1,73 @@
+fileVersion: 1
+id: 417df6e2-39bc-486a-bbee-69d2431407cc
+name: CATEGORIES
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: RAJA
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e7f01a7-3642-444a-82ba-81d9fad7db28
+          stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: CATEGORY_ID
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bd72aa48-daa4-45e6-b3b8-aad55af00a31
+          stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CATEGORY_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: true
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 230f52df-7c73-43f0-94bd-c4c97deead2b
+          stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DESCRIPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CATEGORIES
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

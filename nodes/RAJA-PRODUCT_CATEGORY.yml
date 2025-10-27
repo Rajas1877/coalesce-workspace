@@ -1,0 +1,233 @@
+fileVersion: 1
+id: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+name: PRODUCT_CATEGORY
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: RAJA
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5ddc1bb-b719-49d6-bad5-f73be6d2702a
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: PRODUCT_ID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 054eb817-1bbb-4bc5-bb53-426d72558c97
+                stepCounter: c94923e4-cea5-42fa-8a95-3db18d60dece
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1c83d630-32df-494a-8b06-78522fe55b00
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRODUCT_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6561fdab-ca05-4a4b-a8bd-df643cfb4192
+                stepCounter: c94923e4-cea5-42fa-8a95-3db18d60dece
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d360510a-6b92-4b99-935e-6f28c529c17f
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(10,2)
+        description: ""
+        name: PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f4b64e1a-7c19-4489-a9ef-0008118ec579
+                stepCounter: c94923e4-cea5-42fa-8a95-3db18d60dece
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03365099-2821-48c9-976d-5e7f9082bebb
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: STOCK
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 84a16b3f-2a72-431b-b214-10ba782f41f5
+                stepCounter: c94923e4-cea5-42fa-8a95-3db18d60dece
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7147566f-950f-4738-ac66-cda987dae288
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: CREATED_AT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 845df23f-6b51-4a03-b1d3-44b8f9c68ea9
+                stepCounter: c94923e4-cea5-42fa-8a95-3db18d60dece
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8f0bdb28-a640-4035-b178-40a22731e50c
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ORDER_ITEM_ID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a7f69fcb-d29e-474c-b663-19533d052288
+                stepCounter: 67fc0415-3d28-4938-b663-2c54898adbfc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f261252-aadb-449b-b3d6-cd127007851a
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ORDER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b1585ae6-b371-4e00-a69e-c66083e17212
+                stepCounter: 67fc0415-3d28-4938-b663-2c54898adbfc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 39a37d7e-c2d2-44df-9bf3-b35c248e53a3
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: QUANTITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 706bbde9-fec7-4273-a59f-220f6978ca08
+                stepCounter: 67fc0415-3d28-4938-b663-2c54898adbfc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54f07d77-f9b7-48b5-be72-bfe6cf8dca94
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(10,2)
+        description: ""
+        name: UNIT_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 026a605c-c1dd-4450-acbf-bbe261a12652
+                stepCounter: 67fc0415-3d28-4938-b663-2c54898adbfc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7ed70abb-a984-47c8-989d-0b5bace90ac0
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(10,2)
+        description: ""
+        name: SUBTOTAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 91364c3a-7693-43d6-a874-1ceb7958d4b6
+                stepCounter: 67fc0415-3d28-4938-b663-2c54898adbfc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 545b964d-fe28-4fbd-8a42-e08bbe1bfdaf
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CATEGORY_ID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5e7f01a7-3642-444a-82ba-81d9fad7db28
+                stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9a0dbfbf-09f9-4150-9377-e81c879a7e53
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: CATEGORY_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bd72aa48-daa4-45e6-b3b8-aad55af00a31
+                stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ac42da3-0ea5-4746-aaff-3f86afeae88f
+          stepCounter: 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 230f52df-7c73-43f0-94bd-c4c97deead2b
+                stepCounter: 417df6e2-39bc-486a-bbee-69d2431407cc
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          CATEGORIES: 417df6e2-39bc-486a-bbee-69d2431407cc
+          ORDER_ITEMS: 67fc0415-3d28-4938-b663-2c54898adbfc
+          PRODUCTS: c94923e4-cea5-42fa-8a95-3db18d60dece
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: RAJA
+            nodeName: CATEGORIES
+          - locationName: RAJA
+            nodeName: ORDER_ITEMS
+          - locationName: RAJA
+            nodeName: PRODUCTS
+        join:
+          joinCondition: |-
+            FROM {{ ref('RAJA', 'PRODUCTS') }}PRODUCTS
+            INNER JOIN {{ ref('RAJA', 'ORDER_ITEMS') }} ORDER_ITEMS
+            ON "PRODUCTS"."PRODUCT_ID" = "ORDER_ITEMS"."PRODUCT_ID"
+            INNER JOIN {{ ref('RAJA', 'CATEGORIES') }} "CATEGORIES"
+             ON "PRODUCTS"."CATEGORY_ID" = "CATEGORIES"."CATEGORY_ID"
+        name: PRODUCT_CATEGORY
+        noLinkRefs: []
+  name: PRODUCT_CATEGORY
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

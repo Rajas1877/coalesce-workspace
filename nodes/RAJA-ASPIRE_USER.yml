@@ -119,14 +119,14 @@ operation:
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases:
-          PERSONNEL: f2900042-3f57-4057-b1fb-ab3a021b4a26
+          CUSTOMER_ORDERS: f2900042-3f57-4057-b1fb-ab3a021b4a26
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: RAJA
-            nodeName: PERSONNEL
+            nodeName: CUSTOMER_ORDERS
         join:
-          joinCondition: FROM {{ ref('RAJA', 'PERSONNEL') }} "PERSONNEL"
+          joinCondition: FROM {{ ref('RAJA', 'CUSTOMER_ORDERS') }} "CUSTOMER_ORDERS"
         name: ASPIRE_USER
         noLinkRefs: []
   name: ASPIRE_USER

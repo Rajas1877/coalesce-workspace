@@ -1,0 +1,8 @@
+fileVersion: 1
+id: bb2a6e6f-a481-4ddb-8588-26080336dd51
+name: PERSONNEL_COMMISSION
+steps:
+  - 955dab14-6a86-4d5c-80f9-01c98ea92664
+  - d6e8dc74-93a3-41ae-bffb-a24543df3c0e
+  - f2900042-3f57-4057-b1fb-ab3a021b4a26
+type: Subgraph

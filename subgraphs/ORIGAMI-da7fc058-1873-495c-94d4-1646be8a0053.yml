@@ -1,0 +1,8 @@
+fileVersion: 1
+id: da7fc058-1873-495c-94d4-1646be8a0053
+name: ORIGAMI
+steps:
+  - 3cc78c39-cf07-4e79-aa67-470ac9fd5c15
+  - 78905362-9552-466e-889f-8015854fd7f9
+  - ba7c884d-508f-4c36-b6a6-a083c9257d63
+type: Subgraph

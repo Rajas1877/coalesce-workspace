@@ -1,6 +1,6 @@
 fileVersion: 1
 id: f2900042-3f57-4057-b1fb-ab3a021b4a26
-name: PERSONNEL
+name: CUSTOMER_ORDERS
 operation:
   config:
     insertStrategy: INSERT
@@ -127,9 +127,9 @@ operation:
             nodeName: STG_ORDERS
         join:
           joinCondition: FROM {{ ref('RAJA', 'STG_ORDERS') }} "STG_ORDERS"
-        name: PERSONNEL
+        name: CUSTOMER_ORDERS
         noLinkRefs: []
-  name: PERSONNEL
+  name: CUSTOMER_ORDERS
   overrideSQL: false
   schema: ""
   sqlType: Stage
