@@ -2,3 +2,4 @@ defaultStorageMapping: RAJA
 fileVersion: 1
 locations:
   - RAJA
+  - SECOND

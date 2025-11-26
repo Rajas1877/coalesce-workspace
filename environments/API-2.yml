@@ -4,5 +4,8 @@ mappingDefinitions:
   RAJA:
     database: RAJA
     schema: PUBLIC
+  SECOND:
+    database: ""
+    schema: ""
 name: API
 type: Environment

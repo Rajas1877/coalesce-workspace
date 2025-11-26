@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "7"
+includeSelector: "{ subgraph: \"ORDERS\" } OR { subgraph: \"PERSONNEL_COMMISSION\" }"
+name: TESTING
+type: Job

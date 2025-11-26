@@ -454,7 +454,7 @@ operation:
           joinCondition: |-
             FROM {{ ref('RAJA', 'PRODUCT_CATEGORY') }} "PRODUCT_CATEGORY"
             INNER JOIN {{ ref('RAJA', 'CUSTOMER_INFO') }} "CUSTOMER_INFO"
-            ON "PRODUCT_CATEGORY"./*COLUMN*/ = "CUSTOMER_INFO"./*COLUMN*/
+            ON "PRODUCT_CATEGORY"."CATEGORY_ID" = "CUSTOMER_INFO".c
         name: ORIGAMI
         noLinkRefs: []
   name: ORIGAMI

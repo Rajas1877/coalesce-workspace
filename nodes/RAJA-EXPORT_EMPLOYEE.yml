@@ -1,13 +1,38 @@
 fileVersion: 1
-id: 8962f2e9-86e5-448d-960c-c15494d9aa54
-name: EMPLOYEE_INFO
+id: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
+name: EXPORT_EMPLOYEE
 operation:
   config:
-    insertStrategy: INSERT
-    postSQL: ""
-    preSQL: ""
-    testsEnabled: true
-    truncateBefore: true
+    compression: AUTO
+    compression1: AUTO
+    dateformat: AUTO
+    detailedOutput: false
+    fieldDelim: ","
+    fieldEnclosed: \042
+    fileFormatLoc: ""
+    fileFormatName: ""
+    fileFormatType: File Format Name
+    fileLocation: Enter stage name-stage_name/folder_name/
+    fileType: CSV
+    file_ext: ""
+    header: true
+    overwriteFiles: false
+    partitionConfig: false
+    partitionConfigExpressions: false
+    partitionbyConfig:
+      items:
+        - {}
+    partitionbyConfigExpressions:
+      items:
+        - {}
+    queryId: false
+    recDelim: |+
+
+    singleFile: false
+    sizeLimit: "16"
+    stageStorageLocationName: Enter Storage Location name
+    timeformat: AUTO
+    timestampformat: AUTO
   database: ""
   deployEnabled: true
   description: ""
@@ -19,8 +44,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 80e5e005-780b-4589-9032-c04dddd36b90
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: c321f100-e352-49fd-b6b3-d70191c07951
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -33,8 +58,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 35612739-7e8a-4201-a427-f747f20c11cc
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: 1300199d-6994-4844-bea0-9a376ebd9451
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -47,8 +72,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f5079caa-23f7-4aef-a656-ce3d358a63f1
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: 99f67975-999c-4cac-932c-19b1701add41
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -61,8 +86,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 2ca3ecb6-4958-4c41-84e3-678b86eb9ae9
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: 15fcdfc3-4a27-4d1f-b75f-ed5bf160b7be
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
@@ -75,8 +100,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 04dd2a3e-66e3-4f08-a30b-2f6954e38bbf
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: 3e339618-903b-4bb4-b7b3-d2c7835b7d49
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: NUMBER(10,2)
         description: ""
@@ -89,8 +114,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d362af06-83bb-4c6f-9fae-c13bed859e53
-          stepCounter: 8962f2e9-86e5-448d-960c-c15494d9aa54
+          columnCounter: 38ff4f47-abfc-42f0-9612-5b5d14ed87d5
+          stepCounter: 6768c48c-cea3-4ffd-8f3d-395c523fbefd
         config: {}
         dataType: DATE
         description: ""
@@ -113,12 +138,12 @@ operation:
             nodeName: EMPLOYEE
         join:
           joinCondition: FROM {{ ref('RAJA', 'EMPLOYEE') }} "EMPLOYEE"
-        name: EMPLOYEE_INFO
+        name: EXPORT_EMPLOYEE
         noLinkRefs: []
-  name: EMPLOYEE_INFO
+  name: EXPORT_EMPLOYEE
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: External-Packages:::302
   type: sql
   version: 1
 type: Node
