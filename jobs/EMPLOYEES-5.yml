@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "5"
-includeSelector: "{ subgraph: \"EMPLOYEE_INFO\" }"
-name: EMPLOYEES
-type: Job
