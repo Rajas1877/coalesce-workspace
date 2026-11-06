@@ -1,0 +1,8 @@
+fileVersion: 1
+id: "6"
+mappingDefinitions:
+  RAJA:
+    database: RAJA_QA
+    schema: PUBLIC
+name: Raja - QA
+type: Environment

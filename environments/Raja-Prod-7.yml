@@ -1,11 +1,8 @@
 fileVersion: 1
-id: "2"
+id: "7"
 mappingDefinitions:
   RAJA:
-    database: RAJA
+    database: RAJA_PROD
     schema: PUBLIC
-  SECOND:
-    database: ""
-    schema: ""
-name: API
+name: Raja - Prod
 type: Environment

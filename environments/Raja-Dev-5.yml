@@ -1,0 +1,8 @@
+fileVersion: 1
+id: "5"
+mappingDefinitions:
+  RAJA:
+    database: RAJA_DEV
+    schema: PUBLIC
+name: Raja - Dev
+type: Environment
